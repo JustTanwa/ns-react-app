@@ -1,0 +1,31 @@
+{
+  "name": "ns-react-app",
+  "version": "1.0.0",
+  "description": "Provide a boiler plate project structure for creating a React app inside Netsuite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Netsuite",
+    "React"
+  ],
+  "author": "Tanwa Sripan",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.2.1",
+    "html-webpack-plugin": "^5.6.0"
+  }
+}
