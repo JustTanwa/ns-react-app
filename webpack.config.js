@@ -24,7 +24,12 @@ module.exports = {
             metaDesc: 'Example of how Netsuite can render React App',
             template: './src/React/index.html',
             filename: 'index_react_app.html',
-            inject: false
+            inject: true
         }),
-    ]
+    ],
+    devServer: {
+        devMiddleware: {
+            index: 'index_react_app.html',
+        },
+    },
 }
