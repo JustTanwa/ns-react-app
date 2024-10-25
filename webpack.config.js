@@ -20,6 +20,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
+            hash: true,
             title: 'Netsuite React App',
             metaDesc: 'Example of how Netsuite can render React App',
             template: './src/React/index.html',
